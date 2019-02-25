@@ -1,0 +1,21 @@
+.jumbotron {
+    font-family: fantasy;
+    text-align:center;
+}
+ .img {
+ 
+     text-align:center;
+ }
+ .container-fluid {
+    background-color:#28C;
+}
+.card-footer {
+    color:#28C;
+    text-align:center;
+}
+.card-header {
+    text-align: center;
+}
+.card-body {
+    text-align: center;
+}

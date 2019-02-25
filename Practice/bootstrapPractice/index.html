@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <title>
+            
+        </title>
+    </head>
+    <body>
+        <h1>
+            Modals!
+        </h1>
+        <p>
+            
+        </p>
+    <!-- This is the code for a button in order to set it up to open a modal-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    This is the button you click to open the modal
+    </button>
+    <!-- This is the code for the actual modal but you need to set the model size and shape and what it is going to say or else it will not have a size so you need more code than just what is given here -->
+    <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <!-- this is the code needed to set the text of the header of the modal-->
+          <div class="modal-header">
+          <h4 class="modal-title">This is the heading of the modal</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- this is the text needed to set the body text of the modal-->
+        <div class="modal-body">
+          This is the body for the modal
+        </div>
+        <!-- This is the code needed to set the text for the footer of the modal-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> This is the footer of the modal
+        </div>
+    </body>
+</html>
