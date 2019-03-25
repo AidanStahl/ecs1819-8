@@ -1,6 +1,6 @@
 .jumbotron {
     text-align: center;
-    font-family:impact;
+    font-family: "Emblema One";
     color:#06d;
     background-color:#ada9a9;
     padding-left:100px;
@@ -29,21 +29,24 @@ hr{
     background-color:#efefef;
 }
 h4{
-    font-family:impact;
+    font-family: "Emblema One";
     color: #66b9bf;
 }
 p{
-    font-family:serif;
+    font-family:"Emblema One";
 }
 .card-header{
+     font-family:"Emblema One";
     text-align:center;
     color:black;
     background-color:#07889b;
 }
 .card-body{
+     font-family:"Emblema One";
     background-color:#ff3b3f;
 }
 .card-footer{
+     font-family:"Emblema One";
     background-color:#e37222;
     text-align:center;
 }

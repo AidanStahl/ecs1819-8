@@ -1,9 +1,47 @@
 body{
-    background-color:;
+    background-color:#1a2930;
 }
 .jumbotron {
-    color:#0d0;
+    color:#c5c130;
     background-color:#05a;
     text-align:center;
     font-family:impact;
+    width:1280px;
+}
+.carousel-inner{
+    text-align:center;
+}
+.col-lg-8 {
+    font-family:"Medula One";
+    font-size:22px;
+    color:#222222;
+}
+h4{
+    font-family:"Medula One";
+    font-size:28px;
+    color:#c5c1c0;
+}
+.container-fluid{
+    background-color:#f7ce3e;
+}
+.container-fluid1{
+    background-color:#1a2930;
+    text-align:center;
+}
+.container-fluid2 {
+    background-color:#c5c1c0;
+}
+.card-header {
+    font-family:"Medula One";
+    font-size:29px;
+    background-color:#f7ce3e;
+    text-align: center;
+    color:#c5c1c0;
+}
+.card-body {
+    font-size:24px;
+    font-family:"Medula One";
+    text-align:center;
+    background-color:#0a1612;
+    color:#c5c1c0;
 }
